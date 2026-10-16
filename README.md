@@ -4,8 +4,9 @@ Self-taught developer in France, studying for a BUT MMI. For about two and a hal
 
 Shipping fast with AI coding tools, I kept running into the same security failures: Row-Level Security that looks enabled but lets anyone read everything, secret keys bundled into the browser, API routes that never check who is asking. Finding and explaining those failures is what I work on now.
 
-### Security work
+### Security work & AI Safety
 
+- **[qwen-safety-exp](https://github.com/Teo102/qwen-safety-exp)** — Empirical evaluation of instruction-following robustness, indirect prompt injection, and canary secret leakage on Qwen 3:8B using harmless proxy tasks. Reproducibility harness, raw logs, and evaluation reports.
 - **[validra-check](https://github.com/Teo102/validra-check)** — open-source CLI that checks, from the outside and read-only, what a web app exposes to anyone: secret keys in client code, Supabase tables readable without logging in, public storage buckets. `npx validra-check <url>`
 - **[Validra](https://validra.dev)** — focused security reviews of SaaS and web apps. Methodology and a [sample report](https://validra.dev/en/sample-report) are public.
 - **[25 security mistakes AI coding tools still make](https://validra.dev/en/guide)** — free guide, with how to test for and fix each one.
